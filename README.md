@@ -3,6 +3,8 @@ git clone https://github.com/4ntsec/My-i3.git
 
 cd My-i3
 
+bash config.sh
+
 # What actually happens
 Create directories alarcitty, picom, polybar, polybar/scripts/ under ~/.config
 
