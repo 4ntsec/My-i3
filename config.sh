@@ -2,7 +2,7 @@
 
 # Install required packages
 sudo apt update
-sudo apt install -y alacritty rofi picom polybar i3 tmux
+sudo apt install -y alacritty rofi picom polybar i3 tmux feh
 
 # Create required directories
 mkdir -p ~/.config/alarcitty
