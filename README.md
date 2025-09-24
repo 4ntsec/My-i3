@@ -1,9 +1,6 @@
 # Installation
-git clone {repo url}
-cd repo
-
-
-
+git clone [{repo url}](https://github.com/4ntsec/My-i3.git)
+cd My-i3
 
 # What actually happens
 Create directories alarcitty, picom, polybar, polybar/scripts/ under ~/.config
@@ -18,3 +15,4 @@ mv polybar-script-tun0-ip.sh ~/.config/polybar/scripts/tun0-ip.sh
 mv tmux.conf ~/.tmux.conf
 
 ```
+
