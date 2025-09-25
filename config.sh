@@ -9,6 +9,7 @@ mkdir -p ~/.config/alarcitty
 mkdir -p ~/.config/picom
 mkdir -p ~/.config/polybar/scripts
 mkdir -p ~/.config/i3
+mkdir -p ~/.config/rofi
 
 # Move config files to their respective folders
 mv -v alacritty.toml ~/.config/alarcitty/
@@ -21,4 +22,10 @@ mv -v wall-1.jpg  ~/Pictures/wall-1.jpg
 
 
 #adding fonts awesome manually
-wget https://use.fontawesome.com/releases/v7.0.1/fontawesome-free-7.0.1-desktop.zip && unzip fontawesome-free-7.0.1-desktop.zip && sudo mv fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Brands-Regular-400.otf fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Free-Regular-400.otf fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Free-Solid-900.otf /usr/share/fonts/ && rm -rf fontawesome-free-7.0.1-desktop*
+wget https://use.fontawesome.com/releases/v6.5.2/fontawesome-free-6.5.2-desktop.zip && unzip fontawesome-free-6.5.2-desktop.zip && sudo mv fontawesome-free-6.5.2-desktop/otfs/Font\ Awesome\ 7\ Brands-Regular-400.otf fontawesome-free-6.5.2-desktop/otfs/Font\ Awesome\ 7\ Free-Regular-400.otf fontawesome-free-6.5.2-desktop/otfs/Font\ Awesome\ 7\ Free-Solid-900.otf /usr/share/fonts/ && rm -rf fontawesome-free-6.5.2-desktop*
+
+#rofi configuring
+git clone https://github.com/adi1090x/rofi.git
+cd rofi
+./setup.sh
+echo " If you want to change the style of the rofi luncher\n Navgiate to ~/.config/rofi/launchers/type-6/ and edit the theme variable in launcher.sh"
