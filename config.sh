@@ -18,3 +18,7 @@ mv -v config ~/.config/i3/
 mv -v polybar-script-tun0-ip.sh ~/.config/polybar/scripts/tun0-ip.sh
 mv -v tmux.conf ~/.tmux.conf
 mv -v wall-1.jpg  ~/Pictures/wall-1.jpg
+
+
+#adding fonts awesome manually
+wget https://use.fontawesome.com/releases/v7.0.1/fontawesome-free-7.0.1-desktop.zip && unzip fontawesome-free-7.0.1-desktop.zip && sudo mv fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Brands-Regular-400.otf fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Free-Regular-400.otf fontawesome-free-7.0.1-desktop/otfs/Font\ Awesome\ 7\ Free-Solid-900.otf /usr/share/fonts/ && rm -rf fontawesome-free-7.0.1-desktop*
